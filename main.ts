@@ -7,7 +7,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const roast =
-  "My agent needed a signed transcript bundle, three checks and a claim code to prove it wrote one sentence — then asked for one more polish pass.";
+  "My agent needs a signed transcript bundle, three checks and a claim code to prove it wrote one sentence — then asks for one more polish pass.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", roast, "utf8");
